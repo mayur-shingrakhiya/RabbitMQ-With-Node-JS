@@ -17,32 +17,7 @@ Messages are published by the producer with a routing key and consumed by the ap
 
 ---
 
-## Project Structure
 
-```
-
-my-rabbitmq-app/
-│
-├─ src/
-│  ├─ config/
-│  │  └─ rabbitmq.js         # RabbitMQ connection and exchange setup
-│  │
-│  ├─ producer/
-│  │  └─ notifyProducer.js   # Publishes messages with routing key
-│  │
-│  ├─ consumers/
-│  │  ├─ whatsappConsumer.js
-│  │  ├─ emailConsumer.js
-│  │  └─ telegramConsumer.js
-│  │
-│  └─ server.js              # Optional: API server to trigger producer
-│
-├─ package.json
-└─ README.md
-
-````
-
----
 
 ## Installation
 
